@@ -67,7 +67,7 @@ DROP DATABASE hw_student;
 CREATE DATABASE pastry_shop;
 SHOW DATABASES;
 USE DATABASE pastry_shop;
-USE pastry_shop;
+
 CREATE TABLE menu(
 	s_no INT,
 	pastry_name VARCHAR(30),
