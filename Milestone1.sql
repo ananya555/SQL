@@ -51,11 +51,10 @@ INSERT INTO teachers(Name) VALUES ('Anshika kapoor');
 INSERT INTO teachers(Address,Age) VALUES  ('Dwarka, Delhi',25),('Tonk,Rajasthan',38);
 INSERT INTO teachers(Name,,Age) VALUES  ('Sakshi',28),('Sangam Jha',31);
 
-/* DOUBT
 
-SELECT id_no,
-IFNULL(Address,'N/A') Address
-FROM teachers;*/
+SELECT id_no,Name
+IFNULL(Address,'N/A') AS 'Address', Age
+FROM teachers;
 
 DROP TABLE teachers;
 DROP TABLE students_data;
