@@ -53,7 +53,7 @@ INSERT INTO teachers(Name,,Age) VALUES  ('Sakshi',28),('Sangam Jha',31);
 
 
 SELECT id_no,Name
-IFNULL(Address,'N/A') AS 'Address', Age
+ISNULL(Address,'N/A') AS 'Address', Age
 FROM teachers;
 
 DROP TABLE teachers;
@@ -61,7 +61,7 @@ DROP TABLE students_data;
 
 DROP DATABASE hw_student;
 
-
+/*...................................ANOTHER DATABASE.................................*/
 /* Adding pastry_shop DATABASE*/
 CREATE DATABASE pastry_shop;
 SHOW DATABASES;
